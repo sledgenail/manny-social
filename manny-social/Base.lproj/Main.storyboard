@@ -66,12 +66,15 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Psp-tx-ADb" customClass="RoundButton" customModule="manny_social" customModuleProvider="target">
                                 <rect key="frame" x="132" y="230" width="150" height="150"/>
-                                <color key="backgroundColor" red="0.86666666670000003" green="0.17254901959999999" blue="0.0" alpha="0.85113113500000004" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.24719682339999999" green="0.40714150669999999" blue="0.68606978649999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="Joe-1L-Nbj"/>
                                     <constraint firstAttribute="width" constant="150" id="lsG-Rv-xla"/>
                                 </constraints>
                                 <state key="normal" image="f"/>
+                                <connections>
+                                    <action selector="facebookBtnTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="i7H-wr-mAl"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="EG7-Z1-BOa">
                                 <rect key="frame" x="50" y="420" width="314" height="117"/>
