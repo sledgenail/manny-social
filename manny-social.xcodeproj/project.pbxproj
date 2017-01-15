@@ -18,6 +18,7 @@
 		A049EE4D1E273745001E638F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A049EE4C1E273745001E638F /* Assets.xcassets */; };
 		A049EE501E273745001E638F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A049EE4E1E273745001E638F /* LaunchScreen.storyboard */; };
 		A049EE5D1E27639F001E638F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A049EE5C1E27639F001E638F /* GoogleService-Info.plist */; };
+		A0563DC41E2B15F9001ACE02 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0563DC31E2B15F9001ACE02 /* FeedVC.swift */; };
 		B70B8F20D317E3F19DE106AB /* Pods_manny_social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D19AEC646D2141007137FBEE /* Pods_manny_social.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +37,7 @@
 		A049EE4F1E273745001E638F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A049EE511E273745001E638F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A049EE5C1E27639F001E638F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A0563DC31E2B15F9001ACE02 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		D19AEC646D2141007137FBEE /* Pods_manny_social.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_manny_social.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAB774A90ABE5CCF61B670E4 /* Pods-manny-social.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-manny-social.debug.xcconfig"; path = "Pods/Target Support Files/Pods-manny-social/Pods-manny-social.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -116,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				A049EE471E273745001E638F /* SignInVC.swift */,
+				A0563DC31E2B15F9001ACE02 /* FeedVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 				A049EE481E273745001E638F /* SignInVC.swift in Sources */,
 				A0299C611E2988E20021CC7F /* RoundButton.swift in Sources */,
 				A0299C651E298DEC0021CC7F /* FancyButton.swift in Sources */,
+				A0563DC41E2B15F9001ACE02 /* FeedVC.swift in Sources */,
 				A049EE461E273745001E638F /* AppDelegate.swift in Sources */,
 				A0299C5C1E29840F0021CC7F /* FancyView.swift in Sources */,
 				A0299C5F1E29849A0021CC7F /* Constants.swift in Sources */,
