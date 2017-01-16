@@ -173,10 +173,10 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ppO-jj-vJx" customClass="FancyView" customModule="manny_social" customModuleProvider="target">
-                                <rect key="frame" x="32" y="81" width="311" height="65"/>
+                                <rect key="frame" x="16" y="73" width="343" height="65"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="KVb-cQ-BnF">
-                                        <rect key="frame" x="8" y="8" width="295" height="49"/>
+                                        <rect key="frame" x="8" y="8" width="327" height="49"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="add-image" translatesAutoresizingMaskIntoConstraints="NO" id="GEW-kk-H4Q" customClass="CircleView" customModule="manny_social" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="49" height="49"/>
@@ -187,7 +187,7 @@
                                                 </constraints>
                                             </imageView>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Add a caption..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zff-31-NO6" customClass="FancyField" customModule="manny_social" customModuleProvider="target">
-                                                <rect key="frame" x="59" y="0.0" width="177" height="49"/>
+                                                <rect key="frame" x="59" y="0.0" width="209" height="49"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="49" id="PtF-DL-baA"/>
                                                 </constraints>
@@ -196,7 +196,7 @@
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DPn-EY-pbU" customClass="RoundButton" customModule="manny_social" customModuleProvider="target">
-                                                <rect key="frame" x="246" y="0.0" width="49" height="49"/>
+                                                <rect key="frame" x="278" y="0.0" width="49" height="49"/>
                                                 <color key="backgroundColor" red="0.8666666666666667" green="0.17254901960784313" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="49" id="JAf-MJ-IEf"/>
@@ -216,27 +216,27 @@
                                     <constraint firstAttribute="height" constant="65" id="txE-FQ-eaj"/>
                                 </constraints>
                             </view>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="363" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="SAC-6h-882">
-                                <rect key="frame" x="0.0" y="162" width="375" height="505"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="363" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="SAC-6h-882">
+                                <rect key="frame" x="0.0" y="146" width="375" height="521"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="363" id="WCW-HD-a4z">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="PostCell" rowHeight="363" id="WCW-HD-a4z" customClass="PostCell" customModule="manny_social" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="363"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WCW-HD-a4z" id="GGS-Mr-zBs">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="362"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="363"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ard-jm-2Nu">
-                                                    <rect key="frame" x="16" y="8" width="343" height="346"/>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ard-jm-2Nu" customClass="FancyView" customModule="manny_social" customModuleProvider="target">
+                                                    <rect key="frame" x="16" y="8" width="343" height="347"/>
                                                     <subviews>
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="naf-yI-7ES">
-                                                            <rect key="frame" x="8" y="8" width="327" height="298"/>
+                                                            <rect key="frame" x="8" y="8" width="327" height="299"/>
                                                             <subviews>
                                                                 <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gw3-cT-opw">
                                                                     <rect key="frame" x="0.0" y="0.0" width="327" height="60"/>
                                                                     <subviews>
-                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile" translatesAutoresizingMaskIntoConstraints="NO" id="y1h-Ck-Wp4">
+                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile" translatesAutoresizingMaskIntoConstraints="NO" id="y1h-Ck-Wp4" customClass="CircleView" customModule="manny_social" customModuleProvider="target">
                                                                             <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
                                                                             <constraints>
                                                                                 <constraint firstAttribute="width" constant="60" id="w3t-N1-UFA"/>
@@ -259,11 +259,14 @@
                                                                     </subviews>
                                                                 </stackView>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="TY0-Zk-CdO">
-                                                                    <rect key="frame" x="0.0" y="68" width="327" height="139"/>
+                                                                    <rect key="frame" x="0.0" y="68" width="327" height="173"/>
                                                                 </imageView>
                                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="yhK-SV-xnW">
-                                                                    <rect key="frame" x="0.0" y="215" width="327" height="83"/>
+                                                                    <rect key="frame" x="0.0" y="249" width="327" height="50"/>
                                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="QG9-oc-vL9"/>
+                                                                    </constraints>
                                                                     <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -271,7 +274,7 @@
                                                             </subviews>
                                                         </stackView>
                                                         <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="wC6-mg-GQm">
-                                                            <rect key="frame" x="258.5" y="314" width="76.5" height="24"/>
+                                                            <rect key="frame" x="258.5" y="315" width="76.5" height="24"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Likes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ovz-cA-rhw">
                                                                     <rect key="frame" x="0.0" y="0.0" width="35.5" height="24"/>
@@ -307,25 +310,33 @@
                                                 <constraint firstAttribute="bottom" secondItem="Ard-jm-2Nu" secondAttribute="bottom" constant="8" id="UuB-3H-T1x"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="caption" destination="yhK-SV-xnW" id="lbf-U5-czb"/>
+                                            <outlet property="likesLabel" destination="aRd-0s-VCA" id="FiQ-jk-Sy3"/>
+                                            <outlet property="postImg" destination="TY0-Zk-CdO" id="qh4-iD-tee"/>
+                                            <outlet property="profileImage" destination="y1h-Ck-Wp4" id="Wx5-tg-YlY"/>
+                                            <outlet property="usernameLabel" destination="Grl-H4-lj3" id="nk6-Gn-DLs"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="ppO-jj-vJx" firstAttribute="leading" secondItem="h7l-l4-4An" secondAttribute="leadingMargin" constant="16" id="4Gk-Qv-5be"/>
+                            <constraint firstItem="ppO-jj-vJx" firstAttribute="leading" secondItem="h7l-l4-4An" secondAttribute="leadingMargin" id="4Gk-Qv-5be"/>
                             <constraint firstItem="OX3-FY-FVa" firstAttribute="top" secondItem="SAC-6h-882" secondAttribute="bottom" id="55d-6b-a31"/>
                             <constraint firstAttribute="trailing" secondItem="SAC-6h-882" secondAttribute="trailing" id="GKZ-az-WUq"/>
-                            <constraint firstItem="SAC-6h-882" firstAttribute="top" secondItem="ppO-jj-vJx" secondAttribute="bottom" constant="16" id="KeG-H7-WDE"/>
+                            <constraint firstItem="SAC-6h-882" firstAttribute="top" secondItem="ppO-jj-vJx" secondAttribute="bottom" constant="8" id="KeG-H7-WDE"/>
                             <constraint firstItem="Dwq-4c-KwZ" firstAttribute="top" secondItem="h7l-l4-4An" secondAttribute="top" id="QIm-ql-GP2"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="ppO-jj-vJx" secondAttribute="trailing" constant="16" id="SvZ-GQ-u1G"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ppO-jj-vJx" secondAttribute="trailing" id="SvZ-GQ-u1G"/>
                             <constraint firstAttribute="trailing" secondItem="Dwq-4c-KwZ" secondAttribute="trailing" id="VcE-HJ-Fv2"/>
-                            <constraint firstItem="ppO-jj-vJx" firstAttribute="top" secondItem="Dwq-4c-KwZ" secondAttribute="bottom" constant="16" id="Vs6-fg-0Fn"/>
+                            <constraint firstItem="ppO-jj-vJx" firstAttribute="top" secondItem="Dwq-4c-KwZ" secondAttribute="bottom" constant="8" id="Vs6-fg-0Fn"/>
                             <constraint firstItem="SAC-6h-882" firstAttribute="leading" secondItem="h7l-l4-4An" secondAttribute="leading" id="iW5-Xl-esF"/>
                             <constraint firstItem="Dwq-4c-KwZ" firstAttribute="leading" secondItem="h7l-l4-4An" secondAttribute="leading" id="vnS-bS-dy8"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="tableView" destination="SAC-6h-882" id="Onr-3Q-Ah7"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="goToSignIn" id="om1-Q8-1cf"/>
                     </connections>
                 </viewController>
