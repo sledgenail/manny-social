@@ -21,6 +21,7 @@
 		A05373C61E2C1BBD000860F3 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05373C51E2C1BBD000860F3 /* CircleView.swift */; };
 		A05373C81E2C4F34000860F3 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05373C71E2C4F34000860F3 /* PostCell.swift */; };
 		A05373CB1E2D770C000860F3 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05373CA1E2D770C000860F3 /* DataService.swift */; };
+		A05373CD1E2DE76D000860F3 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05373CC1E2DE76D000860F3 /* Post.swift */; };
 		A0563DC41E2B15F9001ACE02 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0563DC31E2B15F9001ACE02 /* FeedVC.swift */; };
 		B70B8F20D317E3F19DE106AB /* Pods_manny_social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D19AEC646D2141007137FBEE /* Pods_manny_social.framework */; };
 /* End PBXBuildFile section */
@@ -43,6 +44,7 @@
 		A05373C51E2C1BBD000860F3 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		A05373C71E2C4F34000860F3 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		A05373CA1E2D770C000860F3 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		A05373CC1E2DE76D000860F3 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		A0563DC31E2B15F9001ACE02 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		D19AEC646D2141007137FBEE /* Pods_manny_social.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_manny_social.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAB774A90ABE5CCF61B670E4 /* Pods-manny-social.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-manny-social.debug.xcconfig"; path = "Pods/Target Support Files/Pods-manny-social/Pods-manny-social.debug.xcconfig"; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 		A049EE5B1E2761DB001E638F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A05373CC1E2DE76D000860F3 /* Post.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				A05373C61E2C1BBD000860F3 /* CircleView.swift in Sources */,
 				A0299C631E298C840021CC7F /* FancyField.swift in Sources */,
 				A049EE481E273745001E638F /* SignInVC.swift in Sources */,
+				A05373CD1E2DE76D000860F3 /* Post.swift in Sources */,
 				A0299C611E2988E20021CC7F /* RoundButton.swift in Sources */,
 				A0299C651E298DEC0021CC7F /* FancyButton.swift in Sources */,
 				A05373CB1E2D770C000860F3 /* DataService.swift in Sources */,
