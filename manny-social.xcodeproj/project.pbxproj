@@ -420,6 +420,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EAB774A90ABE5CCF61B670E4 /* Pods-manny-social.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = S45Z8F64BM;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -438,6 +439,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 518037839B94A3749DCAD79D /* Pods-manny-social.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = S45Z8F64BM;
 				FRAMEWORK_SEARCH_PATHS = (
