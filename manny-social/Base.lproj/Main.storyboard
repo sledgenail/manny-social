@@ -149,7 +149,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dwq-4c-KwZ">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="65"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sign-out" translatesAutoresizingMaskIntoConstraints="NO" id="gFh-aJ-s89">
+                                    <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sign-out" translatesAutoresizingMaskIntoConstraints="NO" id="gFh-aJ-s89">
                                         <rect key="frame" x="16" y="20" width="45" height="38"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="45" id="Q2I-XG-eom"/>
@@ -164,6 +164,7 @@
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.0" green="0.73725490199999999" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstItem="y9g-B6-cgA" firstAttribute="centerY" secondItem="gFh-aJ-s89" secondAttribute="centerY" id="5Xz-E3-eG6"/>
                                     <constraint firstItem="gFh-aJ-s89" firstAttribute="leading" secondItem="Dwq-4c-KwZ" secondAttribute="leading" constant="16" id="J1d-83-oxg"/>
@@ -171,6 +172,9 @@
                                     <constraint firstAttribute="height" constant="65" id="R1O-MO-atg"/>
                                     <constraint firstItem="y9g-B6-cgA" firstAttribute="centerX" secondItem="Dwq-4c-KwZ" secondAttribute="centerX" id="ZD4-nM-yDv"/>
                                 </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="jgG-ia-IfH" appends="YES" id="jJy-mx-yNv"/>
+                                </connections>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ppO-jj-vJx" customClass="FancyView" customModule="manny_social" customModuleProvider="target">
                                 <rect key="frame" x="16" y="73" width="343" height="65"/>
@@ -341,6 +345,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6qO-uf-fbf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="jgG-ia-IfH">
+                    <connections>
+                        <action selector="SignOutTapped:" destination="tJN-e8-USr" id="efm-nx-Mgo"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="910.5" y="137.5"/>
         </scene>
